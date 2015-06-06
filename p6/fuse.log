@@ -1,0 +1,89 @@
+Running: D:\COD_tools\Xilinx_ISE\Xilinx_ISE_DS\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/test_mips_isim_beh.exe -prj C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/test_mips_beh.prj work.test_mips work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/pc_sel.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/pc.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mux_4_32b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mux_3_5b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mux_3_32b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mux_2_32bb.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mux_2_32b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mul_div.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mul_div.v" Line 36: Redeclaration of ansi port HI is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mul_div.v" Line 38: Redeclaration of ansi port Busy is not allowed
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/im.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/gpr.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ext_load.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ext_5.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ext.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/dm.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/control.v" into library work
+WARNING:HDLCompiler:751 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/control.v" Line 68: Redeclaration of ansi port multu is not allowed
+WARNING:HDLCompiler:751 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/control.v" Line 70: Redeclaration of ansi port lw is not allowed
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/CMP.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/beq_npc.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/be.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/alu.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/WB.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mem_wb.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/MEM.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/if_id.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/IF.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/id_ex.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ID.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/hazard.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/forward.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ex_mem.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/EX.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" into library work
+WARNING:HDLCompiler:35 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 57: <tr_rd1_id> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 108: <s_id> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 190: <a3_ex> is already implicitly declared earlier.
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/test_mips.v" into library work
+Analyzing Verilog file "D:/COD_tools/Xilinx_ISE/Xilinx_ISE_DS/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ID.v" Line 85: Size mismatch in connection of port <Rst>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1016 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/EX.v" Line 45: Port Over is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 232: Size mismatch in connection of port <pc_mem>. Formal port size is 30-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module pc
+Compiling module im
+Compiling module pc_sel
+Compiling module mux_4_32b
+Compiling module IF
+Compiling module if_id
+Compiling module control
+Compiling module gpr
+Compiling module beq_npc
+Compiling module ext
+Compiling module ext_5
+Compiling module CMP
+Compiling module mux_3_32b
+Compiling module ID
+Compiling module id_ex
+Compiling module alu
+Compiling module mux_2_32b
+Compiling module mux_3_5b
+Compiling module mul_div
+Compiling module mux_2_32bb
+Compiling module EX
+Compiling module ex_mem
+Compiling module dm
+Compiling module be
+Compiling module MEM
+Compiling module mem_wb
+Compiling module ext_load
+Compiling module WB
+Compiling module hazard
+Compiling module forward
+Compiling module mips
+Compiling module test_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 26 sub-compilation(s) to finish...
+Compiled 33 Verilog Units
+Built simulation executable C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/test_mips_isim_beh.exe
+Fuse Memory Usage: 31964 KB
+Fuse CPU Usage: 826 ms

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mul_div.v" Line 36: Redeclaration of ansi port <arg fmt="%s" index="1">HI</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mul_div.v" Line 38: Redeclaration of ansi port <arg fmt="%s" index="1">Busy</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/control.v" Line 68: Redeclaration of ansi port <arg fmt="%s" index="1">multu</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/control.v" Line 70: Redeclaration of ansi port <arg fmt="%s" index="1">lw</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 57: &lt;<arg fmt="%s" index="1">tr_rd1_id</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 108: &lt;<arg fmt="%s" index="1">s_id</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="35" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 190: &lt;<arg fmt="%s" index="1">a3_ex</arg>&gt; is already implicitly declared earlier.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/ID.v" Line 85: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Rst</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/EX.v" Line 45: Port <arg fmt="%s" index="1">Over</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"C:/Users/dell/Desktop/BUAA2/PROJECT/P6-VerilogHDL-pipeline_CPU-V2/p6/mips.v" Line 232: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">pc_mem</arg>&gt;. Formal port size is <arg fmt="%d" index="2">30</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+</messages>
+
